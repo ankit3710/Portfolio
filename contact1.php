@@ -1,5 +1,5 @@
 <?php
-$con = mysqli_connect("sql6.freesqldatabase.com","sql6406727","","sql6406727","3306") or die(mysqli_error($con));
+$con = mysqli_connect("localhost","root","","portfolio","3308") or die(mysqli_error($con));
     $email = mysqli_real_escape_string($con, $_POST["email"]);
     $name = mysqli_real_escape_string($con, $_POST["name"]);
     $contact = mysqli_real_escape_string($con, $_POST["contact"]);
